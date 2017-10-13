@@ -1,5 +1,5 @@
 PODS:
-  - LCACustomUI (1.0.0):
+  - LCACustomUI (1.0.1):
     - LCAExtension
   - LCAExtension (1.0.4)
 
@@ -11,7 +11,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  LCACustomUI: 21fa522f78fbfc3c85fafa80b7fa2bbd96a20954
+  LCACustomUI: c4162c585110359c8aafdb3a79810f2d20e5138f
   LCAExtension: c6088c524d3c6f4afda6470857def4bd364ca52e
 
 PODFILE CHECKSUM: fa270c0dddc19e6ad93172f10d1f3517a9acc353
