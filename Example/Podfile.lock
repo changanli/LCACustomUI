@@ -1,0 +1,19 @@
+PODS:
+  - LCACustomUI (1.0.0):
+    - LCAExtension
+  - LCAExtension (1.0.4)
+
+DEPENDENCIES:
+  - LCACustomUI (from `../`)
+
+EXTERNAL SOURCES:
+  LCACustomUI:
+    :path: ../
+
+SPEC CHECKSUMS:
+  LCACustomUI: 21fa522f78fbfc3c85fafa80b7fa2bbd96a20954
+  LCAExtension: c6088c524d3c6f4afda6470857def4bd364ca52e
+
+PODFILE CHECKSUM: fa270c0dddc19e6ad93172f10d1f3517a9acc353
+
+COCOAPODS: 1.3.1

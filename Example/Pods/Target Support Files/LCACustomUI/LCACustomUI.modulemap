@@ -1,0 +1,6 @@
+framework module LCACustomUI {
+  umbrella header "LCACustomUI-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import LCACustomUI
 
 class ViewController: UIViewController {
 

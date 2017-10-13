@@ -1,0 +1,955 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01BA8C0E1C1CF29034F7C525F320A3A4 /* String + Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24EDD242B1BFF7FC265FCF38394B97A /* String + Additions.swift */; };
+		097F0C38CD0162F4F914646F3FE54B5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D683836E41774C683030A6A8D3F81E /* Foundation.framework */; };
+		11582A195783330A0BB2ABF592691D7F /* Pods-LCACustomUI_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8A616CD99F42A9B9A33373726432CD /* Pods-LCACustomUI_Example-dummy.m */; };
+		1931F85D1C03412FC7F7992A157D664C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D683836E41774C683030A6A8D3F81E /* Foundation.framework */; };
+		1B4BE058D5557CE490110D227F216268 /* Pods-LCACustomUI_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F45FEC7E3FA07BA3B2703C32C5158CC3 /* Pods-LCACustomUI_Tests-dummy.m */; };
+		302DF701D04EBA1840BCE27E87B52469 /* UIButton+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E256F8DB1141BCC2E3CFA45499A0568A /* UIButton+Additions.swift */; };
+		312EB6C4BD5A238C4FFE0CF6B4A80218 /* WKWebView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C21F507EBA86AC87FFE4EAF48654B31 /* WKWebView+Additions.swift */; };
+		4C54E78C6859D815AF46CF41513F5D9D /* UIWebView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514A07C31090CC794088910423EFF491 /* UIWebView+Additions.swift */; };
+		579D5D8C014839444B1A43F88ABBA4C0 /* UIDevice+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BEA7B180718E1F0DE876517639CFEC /* UIDevice+Additions.swift */; };
+		5C288501BADABF4DB5730E65DA9243D5 /* UIColor+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFECC1A4DA97C589F62A077F092EB327 /* UIColor+Additions.swift */; };
+		6719E43A69E19A4223083175265DAD9F /* LCACustomUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EE77DF8DBBC605E392D17E429D48099 /* LCACustomUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		680487F4A7599913166E4B42640E6BF1 /* Pods-LCACustomUI_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE13F000928201A98BE238E007AD132A /* Pods-LCACustomUI_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E7DB4D3E2A6B264F0DDFECBCEC52849 /* LCAExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DC1829CC03FA13812DEB687D34A624 /* LCAExtension-dummy.m */; };
+		991B68D24DFC33A66BCA8D7E4FF4F36A /* LCAToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B55C7B1607E2CDFBE53009C9FDA9B1 /* LCAToolBar.swift */; };
+		9AD3C67FCF2E9911EE872C8BD81ADCB1 /* LCAAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26A5A4BB4BC6786F411FAE599CDF987 /* LCAAlertController.swift */; };
+		9CA499CF2BD35A8495FAF55CC3FB788B /* UIView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A061E864E5DED7284D462EA08157B5B /* UIView+Additions.swift */; };
+		A04F9B6E66214CD8C327DA13177B41FC /* UIAlertController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B652F415A36D07AFFB7D983BEBCB852 /* UIAlertController+Additions.swift */; };
+		AB635B291604CF3AA95890BBC66B49FE /* LCAExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ACD15A5C00DD468D9E4AE3818EB80903 /* LCAExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4156670694D314DA1FFF8820CEE959F /* LCAExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB5708B42F70070F1B76E0F6F27C44F /* LCAExtension.framework */; };
+		BDCD242CE8C78C32B18DCB89EE3FE2E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D683836E41774C683030A6A8D3F81E /* Foundation.framework */; };
+		C27966BAB429AD6FDA537DD4A50D6A82 /* Pods-LCACustomUI_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2332A3762E9944715C84819067BF3F98 /* Pods-LCACustomUI_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5A3259BC82789F7116DC70814D4C10D /* Bundle+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C3F0A97227E59A4968A13EE75EF787 /* Bundle+Additions.swift */; };
+		D59CF3283835DE35FC498ED2232AE20B /* UIImage+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12140C4DCAA486A467A5468D00CF0A5A /* UIImage+Additions.swift */; };
+		D99911766330C2B0E2C11FC95EE780DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D683836E41774C683030A6A8D3F81E /* Foundation.framework */; };
+		DC054BEACCDD3A7F820926F1B585B92F /* LCACustomUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88605526069BB83090116B5BAAD3E360 /* LCACustomUI-dummy.m */; };
+		ED168F40BC3166BC699C595F8187F656 /* Date+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B5701663AE6AC55260F526B379CEEF /* Date+Additions.swift */; };
+		F26983B712E272381016D0DA045E9D23 /* UILabel+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF7D56AAA1D5B342B5CBDD1A65C8F10 /* UILabel+Additions.swift */; };
+		F9A1A5E9D0F523863705B283FD3C16F1 /* LCADatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA69F70A38A5454A6AEDE9090ECBC9F /* LCADatePicker.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D53041F460A063E47A1A094B3C07AF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B223102FFBAC7CEAAB06663FC23A020;
+			remoteInfo = LCAExtension;
+		};
+		67AC66C48CD5BDA7AE06D75FB8133A72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 378FB42F53A868D420099498663D0BF2;
+			remoteInfo = LCACustomUI;
+		};
+		D20ACB1B091572ADC90F5EEA089F8962 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B223102FFBAC7CEAAB06663FC23A020;
+			remoteInfo = LCAExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		014315ECAD1BCC7F124D2686A0BDDB91 /* Pods-LCACustomUI_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LCACustomUI_Tests-resources.sh"; sourceTree = "<group>"; };
+		0AF7D56AAA1D5B342B5CBDD1A65C8F10 /* UILabel+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILabel+Additions.swift"; path = "LCAExtension/Classes/LCAExtentions/UILabel+Additions.swift"; sourceTree = "<group>"; };
+		0B8A616CD99F42A9B9A33373726432CD /* Pods-LCACustomUI_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LCACustomUI_Example-dummy.m"; sourceTree = "<group>"; };
+		12140C4DCAA486A467A5468D00CF0A5A /* UIImage+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Additions.swift"; path = "LCAExtension/Classes/LCAExtentions/UIImage+Additions.swift"; sourceTree = "<group>"; };
+		1EC4DBEAA69CF45AAA98476A157C8F86 /* Pods-LCACustomUI_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LCACustomUI_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1FECE894228207335424C943A7AA75E6 /* Pods-LCACustomUI_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LCACustomUI_Example.modulemap"; sourceTree = "<group>"; };
+		2332A3762E9944715C84819067BF3F98 /* Pods-LCACustomUI_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LCACustomUI_Tests-umbrella.h"; sourceTree = "<group>"; };
+		26DB2A03F5E8D727497292E198CCEA65 /* Pods-LCACustomUI_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LCACustomUI_Tests.modulemap"; sourceTree = "<group>"; };
+		27D683836E41774C683030A6A8D3F81E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3A061E864E5DED7284D462EA08157B5B /* UIView+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Additions.swift"; path = "LCAExtension/Classes/LCAExtentions/UIView+Additions.swift"; sourceTree = "<group>"; };
+		3FE078B204BA0A71A1A55BAFD6415E83 /* Pods_LCACustomUI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LCACustomUI_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46855D245D8D403CC9131D6D54AD5E09 /* Pods-LCACustomUI_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LCACustomUI_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		490F12E2A34C245BD46E8FE5A8620976 /* Pods-LCACustomUI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LCACustomUI_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4B652F415A36D07AFFB7D983BEBCB852 /* UIAlertController+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIAlertController+Additions.swift"; path = "LCAExtension/Classes/LCAExtentions/UIAlertController+Additions.swift"; sourceTree = "<group>"; };
+		514A07C31090CC794088910423EFF491 /* UIWebView+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIWebView+Additions.swift"; path = "LCAExtension/Classes/LCAExtentions/UIWebView+Additions.swift"; sourceTree = "<group>"; };
+		5207A7CE0CBB08D7886A9A356C879A0E /* LCAExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LCAExtension.modulemap; sourceTree = "<group>"; };
+		55D7451617D6C927808CD55D2BD17B99 /* LCACustomUI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LCACustomUI-prefix.pch"; sourceTree = "<group>"; };
+		5C21F507EBA86AC87FFE4EAF48654B31 /* WKWebView+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "WKWebView+Additions.swift"; path = "LCAExtension/Classes/LCAExtentions/WKWebView+Additions.swift"; sourceTree = "<group>"; };
+		645670CAFCB20A6D222D0AAFAB4F90A6 /* LCACustomUI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LCACustomUI.xcconfig; sourceTree = "<group>"; };
+		6EE77DF8DBBC605E392D17E429D48099 /* LCACustomUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LCACustomUI-umbrella.h"; sourceTree = "<group>"; };
+		70AA9277F190BCA465D17BAE07DA99A1 /* LCACustomUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LCACustomUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7325471F606091445B5BCE552586B719 /* LCAExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LCAExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76F20F5F76B712CDAD0A70B5F934E0AB /* LCACustomUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LCACustomUI.modulemap; sourceTree = "<group>"; };
+		7B89186486D1215EDE4BFD93EAFFAD8D /* Pods-LCACustomUI_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LCACustomUI_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7BA131895093627DF7EA98DA5930946A /* Pods-LCACustomUI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LCACustomUI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7CB5708B42F70070F1B76E0F6F27C44F /* LCAExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LCAExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		862C7298342A54FB06D9B9C4D4F83520 /* LCAExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LCAExtension-prefix.pch"; sourceTree = "<group>"; };
+		875BC3AAA01A7B110C77250780B9A632 /* Pods_LCACustomUI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LCACustomUI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88605526069BB83090116B5BAAD3E360 /* LCACustomUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LCACustomUI-dummy.m"; sourceTree = "<group>"; };
+		8FC1EA614533F103505A115E7E315075 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DA69F70A38A5454A6AEDE9090ECBC9F /* LCADatePicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LCADatePicker.swift; path = LCACustomUI/Classes/LCADatePicker.swift; sourceTree = "<group>"; };
+		A2E8F2BF68B8713CBD2433BDF33FC52F /* LCAExtension.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LCAExtension.xcconfig; sourceTree = "<group>"; };
+		AB06CE90C16BB4F16483D92A475C2298 /* Pods-LCACustomUI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LCACustomUI_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		AB1E4A3B6171F63CB738566C40E5C1D0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACD15A5C00DD468D9E4AE3818EB80903 /* LCAExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LCAExtension-umbrella.h"; sourceTree = "<group>"; };
+		AE13F000928201A98BE238E007AD132A /* Pods-LCACustomUI_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LCACustomUI_Example-umbrella.h"; sourceTree = "<group>"; };
+		AF47A49D173FD7D81969D5F4BED70B0C /* Pods-LCACustomUI_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LCACustomUI_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B0A4DEA26F1F78A2BD057C9CBE50916C /* Pods-LCACustomUI_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LCACustomUI_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BF8A6DFEE7CAF4C8E15B28030C8AD1D8 /* Pods-LCACustomUI_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LCACustomUI_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C24EDD242B1BFF7FC265FCF38394B97A /* String + Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String + Additions.swift"; path = "LCAExtension/Classes/LCAExtentions/String + Additions.swift"; sourceTree = "<group>"; };
+		C4B5701663AE6AC55260F526B379CEEF /* Date+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Additions.swift"; path = "LCAExtension/Classes/LCAExtentions/Date+Additions.swift"; sourceTree = "<group>"; };
+		C5F94FBD03AF2AEBD821053711BB1618 /* Pods-LCACustomUI_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LCACustomUI_Example-resources.sh"; sourceTree = "<group>"; };
+		D2DC1829CC03FA13812DEB687D34A624 /* LCAExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LCAExtension-dummy.m"; sourceTree = "<group>"; };
+		DE07AB2BAD106868806169CFA65E783A /* Pods-LCACustomUI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LCACustomUI_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E1B55C7B1607E2CDFBE53009C9FDA9B1 /* LCAToolBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LCAToolBar.swift; path = LCACustomUI/Classes/LCAToolBar.swift; sourceTree = "<group>"; };
+		E256F8DB1141BCC2E3CFA45499A0568A /* UIButton+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Additions.swift"; path = "LCAExtension/Classes/LCAExtentions/UIButton+Additions.swift"; sourceTree = "<group>"; };
+		E4E708E50F6C0EF60275C2ABA562DE9D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFECC1A4DA97C589F62A077F092EB327 /* UIColor+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Additions.swift"; path = "LCAExtension/Classes/LCAExtentions/UIColor+Additions.swift"; sourceTree = "<group>"; };
+		F26A5A4BB4BC6786F411FAE599CDF987 /* LCAAlertController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LCAAlertController.swift; path = LCACustomUI/Classes/LCAAlertController.swift; sourceTree = "<group>"; };
+		F3BEA7B180718E1F0DE876517639CFEC /* UIDevice+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIDevice+Additions.swift"; path = "LCAExtension/Classes/LCAExtentions/UIDevice+Additions.swift"; sourceTree = "<group>"; };
+		F45FEC7E3FA07BA3B2703C32C5158CC3 /* Pods-LCACustomUI_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LCACustomUI_Tests-dummy.m"; sourceTree = "<group>"; };
+		F4C3F0A97227E59A4968A13EE75EF787 /* Bundle+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+Additions.swift"; path = "LCAExtension/Classes/LCAExtentions/Bundle+Additions.swift"; sourceTree = "<group>"; };
+		FC1DAFF94A3A34FAB527D8E82103D253 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26BDC5A16524765F543387295D8BEAEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D99911766330C2B0E2C11FC95EE780DC /* Foundation.framework in Frameworks */,
+				B4156670694D314DA1FFF8820CEE959F /* LCAExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E0AE6DD3BBD055C1FAB0F0BC327BF6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				097F0C38CD0162F4F914646F3FE54B5D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C95FE5908EC765F7E799C5B00067FB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDCD242CE8C78C32B18DCB89EE3FE2E9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2CF6C18D8DF3D7FE5EC9EE8F10523A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1931F85D1C03412FC7F7992A157D664C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16D684213C42313B7973D02E0105DA81 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9699BC8C1A69793E8332393E799B4598 /* LCAExtension */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		19D20D1257C2CCF0CC77893D43055B6E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB1E4A3B6171F63CB738566C40E5C1D0 /* Info.plist */,
+				5207A7CE0CBB08D7886A9A356C879A0E /* LCAExtension.modulemap */,
+				A2E8F2BF68B8713CBD2433BDF33FC52F /* LCAExtension.xcconfig */,
+				D2DC1829CC03FA13812DEB687D34A624 /* LCAExtension-dummy.m */,
+				862C7298342A54FB06D9B9C4D4F83520 /* LCAExtension-prefix.pch */,
+				ACD15A5C00DD468D9E4AE3818EB80903 /* LCAExtension-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LCAExtension";
+			sourceTree = "<group>";
+		};
+		20AD89EB95ACC0C0AE5C8F3F49D58FD4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC1DAFF94A3A34FAB527D8E82103D253 /* Info.plist */,
+				76F20F5F76B712CDAD0A70B5F934E0AB /* LCACustomUI.modulemap */,
+				645670CAFCB20A6D222D0AAFAB4F90A6 /* LCACustomUI.xcconfig */,
+				88605526069BB83090116B5BAAD3E360 /* LCACustomUI-dummy.m */,
+				55D7451617D6C927808CD55D2BD17B99 /* LCACustomUI-prefix.pch */,
+				6EE77DF8DBBC605E392D17E429D48099 /* LCACustomUI-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LCACustomUI";
+			sourceTree = "<group>";
+		};
+		23014DB0995BD7A561013EF19DA9A329 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7CB5708B42F70070F1B76E0F6F27C44F /* LCAExtension.framework */,
+				3815B0B0360223FBDA0685FE4EF9B8A7 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		27AB2153C1FF377983849645237C411B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70AA9277F190BCA465D17BAE07DA99A1 /* LCACustomUI.framework */,
+				7325471F606091445B5BCE552586B719 /* LCAExtension.framework */,
+				3FE078B204BA0A71A1A55BAFD6415E83 /* Pods_LCACustomUI_Example.framework */,
+				875BC3AAA01A7B110C77250780B9A632 /* Pods_LCACustomUI_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3815B0B0360223FBDA0685FE4EF9B8A7 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				27D683836E41774C683030A6A8D3F81E /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		66769E82C0A9F65E89B78B943C3AFA3B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A9A1B947A3BB39F9110B321E382AE02 /* LCACustomUI */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				66769E82C0A9F65E89B78B943C3AFA3B /* Development Pods */,
+				23014DB0995BD7A561013EF19DA9A329 /* Frameworks */,
+				16D684213C42313B7973D02E0105DA81 /* Pods */,
+				27AB2153C1FF377983849645237C411B /* Products */,
+				7F20839DEE1A8943DD03B81ED415D63B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7F20839DEE1A8943DD03B81ED415D63B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABAD06E7DA2B500E31984EDB69A8254B /* Pods-LCACustomUI_Example */,
+				E00D89F0D559A1F2A93BB039B1B1BA62 /* Pods-LCACustomUI_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8A9A1B947A3BB39F9110B321E382AE02 /* LCACustomUI */ = {
+			isa = PBXGroup;
+			children = (
+				F26A5A4BB4BC6786F411FAE599CDF987 /* LCAAlertController.swift */,
+				9DA69F70A38A5454A6AEDE9090ECBC9F /* LCADatePicker.swift */,
+				E1B55C7B1607E2CDFBE53009C9FDA9B1 /* LCAToolBar.swift */,
+				20AD89EB95ACC0C0AE5C8F3F49D58FD4 /* Support Files */,
+			);
+			name = LCACustomUI;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9699BC8C1A69793E8332393E799B4598 /* LCAExtension */ = {
+			isa = PBXGroup;
+			children = (
+				F4C3F0A97227E59A4968A13EE75EF787 /* Bundle+Additions.swift */,
+				C4B5701663AE6AC55260F526B379CEEF /* Date+Additions.swift */,
+				C24EDD242B1BFF7FC265FCF38394B97A /* String + Additions.swift */,
+				4B652F415A36D07AFFB7D983BEBCB852 /* UIAlertController+Additions.swift */,
+				E256F8DB1141BCC2E3CFA45499A0568A /* UIButton+Additions.swift */,
+				EFECC1A4DA97C589F62A077F092EB327 /* UIColor+Additions.swift */,
+				F3BEA7B180718E1F0DE876517639CFEC /* UIDevice+Additions.swift */,
+				12140C4DCAA486A467A5468D00CF0A5A /* UIImage+Additions.swift */,
+				0AF7D56AAA1D5B342B5CBDD1A65C8F10 /* UILabel+Additions.swift */,
+				3A061E864E5DED7284D462EA08157B5B /* UIView+Additions.swift */,
+				514A07C31090CC794088910423EFF491 /* UIWebView+Additions.swift */,
+				5C21F507EBA86AC87FFE4EAF48654B31 /* WKWebView+Additions.swift */,
+				19D20D1257C2CCF0CC77893D43055B6E /* Support Files */,
+			);
+			path = LCAExtension;
+			sourceTree = "<group>";
+		};
+		ABAD06E7DA2B500E31984EDB69A8254B /* Pods-LCACustomUI_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E4E708E50F6C0EF60275C2ABA562DE9D /* Info.plist */,
+				1FECE894228207335424C943A7AA75E6 /* Pods-LCACustomUI_Example.modulemap */,
+				7B89186486D1215EDE4BFD93EAFFAD8D /* Pods-LCACustomUI_Example-acknowledgements.markdown */,
+				1EC4DBEAA69CF45AAA98476A157C8F86 /* Pods-LCACustomUI_Example-acknowledgements.plist */,
+				0B8A616CD99F42A9B9A33373726432CD /* Pods-LCACustomUI_Example-dummy.m */,
+				AF47A49D173FD7D81969D5F4BED70B0C /* Pods-LCACustomUI_Example-frameworks.sh */,
+				C5F94FBD03AF2AEBD821053711BB1618 /* Pods-LCACustomUI_Example-resources.sh */,
+				AE13F000928201A98BE238E007AD132A /* Pods-LCACustomUI_Example-umbrella.h */,
+				490F12E2A34C245BD46E8FE5A8620976 /* Pods-LCACustomUI_Example.debug.xcconfig */,
+				DE07AB2BAD106868806169CFA65E783A /* Pods-LCACustomUI_Example.release.xcconfig */,
+			);
+			name = "Pods-LCACustomUI_Example";
+			path = "Target Support Files/Pods-LCACustomUI_Example";
+			sourceTree = "<group>";
+		};
+		E00D89F0D559A1F2A93BB039B1B1BA62 /* Pods-LCACustomUI_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8FC1EA614533F103505A115E7E315075 /* Info.plist */,
+				26DB2A03F5E8D727497292E198CCEA65 /* Pods-LCACustomUI_Tests.modulemap */,
+				B0A4DEA26F1F78A2BD057C9CBE50916C /* Pods-LCACustomUI_Tests-acknowledgements.markdown */,
+				BF8A6DFEE7CAF4C8E15B28030C8AD1D8 /* Pods-LCACustomUI_Tests-acknowledgements.plist */,
+				F45FEC7E3FA07BA3B2703C32C5158CC3 /* Pods-LCACustomUI_Tests-dummy.m */,
+				46855D245D8D403CC9131D6D54AD5E09 /* Pods-LCACustomUI_Tests-frameworks.sh */,
+				014315ECAD1BCC7F124D2686A0BDDB91 /* Pods-LCACustomUI_Tests-resources.sh */,
+				2332A3762E9944715C84819067BF3F98 /* Pods-LCACustomUI_Tests-umbrella.h */,
+				7BA131895093627DF7EA98DA5930946A /* Pods-LCACustomUI_Tests.debug.xcconfig */,
+				AB06CE90C16BB4F16483D92A475C2298 /* Pods-LCACustomUI_Tests.release.xcconfig */,
+			);
+			name = "Pods-LCACustomUI_Tests";
+			path = "Target Support Files/Pods-LCACustomUI_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2C21F48E05A16C06F4C6CB763CDB4629 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				680487F4A7599913166E4B42640E6BF1 /* Pods-LCACustomUI_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D3169636189CAC07E0B77B52C81D6C4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6719E43A69E19A4223083175265DAD9F /* LCACustomUI-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B01A8584E82D3E8F298B5F1BB16C426B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C27966BAB429AD6FDA537DD4A50D6A82 /* Pods-LCACustomUI_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA45BD5C9DEC4AE05D02FE41B76429F5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB635B291604CF3AA95890BBC66B49FE /* LCAExtension-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		291E3365E9752AE70FB5500DB0D8E626 /* Pods-LCACustomUI_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75E59E0A1DB6B74115AD86BFA3D4A71F /* Build configuration list for PBXNativeTarget "Pods-LCACustomUI_Tests" */;
+			buildPhases = (
+				86537A75855E24AA0829A502E2CF96C2 /* Sources */,
+				5C95FE5908EC765F7E799C5B00067FB0 /* Frameworks */,
+				B01A8584E82D3E8F298B5F1BB16C426B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-LCACustomUI_Tests";
+			productName = "Pods-LCACustomUI_Tests";
+			productReference = 875BC3AAA01A7B110C77250780B9A632 /* Pods_LCACustomUI_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		378FB42F53A868D420099498663D0BF2 /* LCACustomUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05246D72D57FE069DC251361BBC1D36A /* Build configuration list for PBXNativeTarget "LCACustomUI" */;
+			buildPhases = (
+				6AFB4636DEF39B552FFFD9BBB21F669B /* Sources */,
+				26BDC5A16524765F543387295D8BEAEA /* Frameworks */,
+				6D3169636189CAC07E0B77B52C81D6C4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F030C985BA47ED61D2E74423F0E64BD5 /* PBXTargetDependency */,
+			);
+			name = LCACustomUI;
+			productName = LCACustomUI;
+			productReference = 70AA9277F190BCA465D17BAE07DA99A1 /* LCACustomUI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8B223102FFBAC7CEAAB06663FC23A020 /* LCAExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68A25F3550A378EA574016E39E8F2AF7 /* Build configuration list for PBXNativeTarget "LCAExtension" */;
+			buildPhases = (
+				9829BFA53CE6C50CB17119BFD42135B5 /* Sources */,
+				A2CF6C18D8DF3D7FE5EC9EE8F10523A5 /* Frameworks */,
+				CA45BD5C9DEC4AE05D02FE41B76429F5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LCAExtension;
+			productName = LCAExtension;
+			productReference = 7325471F606091445B5BCE552586B719 /* LCAExtension.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C1100BFAF8E21DFC09A804902FC772F8 /* Pods-LCACustomUI_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDD8AC1DAE1F5901F7EE8F1B56E48D22 /* Build configuration list for PBXNativeTarget "Pods-LCACustomUI_Example" */;
+			buildPhases = (
+				3939B336B3DC3742EF59E680629B5DCD /* Sources */,
+				4E0AE6DD3BBD055C1FAB0F0BC327BF6F /* Frameworks */,
+				2C21F48E05A16C06F4C6CB763CDB4629 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B32621C63B4813CAB9DA8D1105E5316C /* PBXTargetDependency */,
+				D62054DBC0E08095C29C979A70E64267 /* PBXTargetDependency */,
+			);
+			name = "Pods-LCACustomUI_Example";
+			productName = "Pods-LCACustomUI_Example";
+			productReference = 3FE078B204BA0A71A1A55BAFD6415E83 /* Pods_LCACustomUI_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0910;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 27AB2153C1FF377983849645237C411B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				378FB42F53A868D420099498663D0BF2 /* LCACustomUI */,
+				8B223102FFBAC7CEAAB06663FC23A020 /* LCAExtension */,
+				C1100BFAF8E21DFC09A804902FC772F8 /* Pods-LCACustomUI_Example */,
+				291E3365E9752AE70FB5500DB0D8E626 /* Pods-LCACustomUI_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3939B336B3DC3742EF59E680629B5DCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11582A195783330A0BB2ABF592691D7F /* Pods-LCACustomUI_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AFB4636DEF39B552FFFD9BBB21F669B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AD3C67FCF2E9911EE872C8BD81ADCB1 /* LCAAlertController.swift in Sources */,
+				DC054BEACCDD3A7F820926F1B585B92F /* LCACustomUI-dummy.m in Sources */,
+				F9A1A5E9D0F523863705B283FD3C16F1 /* LCADatePicker.swift in Sources */,
+				991B68D24DFC33A66BCA8D7E4FF4F36A /* LCAToolBar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86537A75855E24AA0829A502E2CF96C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B4BE058D5557CE490110D227F216268 /* Pods-LCACustomUI_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9829BFA53CE6C50CB17119BFD42135B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5A3259BC82789F7116DC70814D4C10D /* Bundle+Additions.swift in Sources */,
+				ED168F40BC3166BC699C595F8187F656 /* Date+Additions.swift in Sources */,
+				7E7DB4D3E2A6B264F0DDFECBCEC52849 /* LCAExtension-dummy.m in Sources */,
+				01BA8C0E1C1CF29034F7C525F320A3A4 /* String + Additions.swift in Sources */,
+				A04F9B6E66214CD8C327DA13177B41FC /* UIAlertController+Additions.swift in Sources */,
+				302DF701D04EBA1840BCE27E87B52469 /* UIButton+Additions.swift in Sources */,
+				5C288501BADABF4DB5730E65DA9243D5 /* UIColor+Additions.swift in Sources */,
+				579D5D8C014839444B1A43F88ABBA4C0 /* UIDevice+Additions.swift in Sources */,
+				D59CF3283835DE35FC498ED2232AE20B /* UIImage+Additions.swift in Sources */,
+				F26983B712E272381016D0DA045E9D23 /* UILabel+Additions.swift in Sources */,
+				9CA499CF2BD35A8495FAF55CC3FB788B /* UIView+Additions.swift in Sources */,
+				4C54E78C6859D815AF46CF41513F5D9D /* UIWebView+Additions.swift in Sources */,
+				312EB6C4BD5A238C4FFE0CF6B4A80218 /* WKWebView+Additions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B32621C63B4813CAB9DA8D1105E5316C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LCACustomUI;
+			target = 378FB42F53A868D420099498663D0BF2 /* LCACustomUI */;
+			targetProxy = 67AC66C48CD5BDA7AE06D75FB8133A72 /* PBXContainerItemProxy */;
+		};
+		D62054DBC0E08095C29C979A70E64267 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LCAExtension;
+			target = 8B223102FFBAC7CEAAB06663FC23A020 /* LCAExtension */;
+			targetProxy = 4D53041F460A063E47A1A094B3C07AF0 /* PBXContainerItemProxy */;
+		};
+		F030C985BA47ED61D2E74423F0E64BD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LCAExtension;
+			target = 8B223102FFBAC7CEAAB06663FC23A020 /* LCAExtension */;
+			targetProxy = D20ACB1B091572ADC90F5EEA089F8962 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		52D3A0832A5201A7F4BB98F3EE376FCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE07AB2BAD106868806169CFA65E783A /* Pods-LCACustomUI_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LCACustomUI_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LCACustomUI_Example/Pods-LCACustomUI_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LCACustomUI_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A5B274B9D4EAE4755FD75CA9BC2AD769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 490F12E2A34C245BD46E8FE5A8620976 /* Pods-LCACustomUI_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LCACustomUI_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LCACustomUI_Example/Pods-LCACustomUI_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LCACustomUI_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A732941AB7B3E33E88B87F9285A77747 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2E8F2BF68B8713CBD2433BDF33FC52F /* LCAExtension.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LCAExtension/LCAExtension-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LCAExtension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LCAExtension/LCAExtension.modulemap";
+				PRODUCT_NAME = LCAExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B1A4097E918F42E62A3F88A01CED713A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BA131895093627DF7EA98DA5930946A /* Pods-LCACustomUI_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LCACustomUI_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LCACustomUI_Tests/Pods-LCACustomUI_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LCACustomUI_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CF37908610C8F060091C6AB019AFA052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 645670CAFCB20A6D222D0AAFAB4F90A6 /* LCACustomUI.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LCACustomUI/LCACustomUI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LCACustomUI/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LCACustomUI/LCACustomUI.modulemap";
+				PRODUCT_NAME = LCACustomUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D9A46D42D1F223609D67450127DCA2D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 645670CAFCB20A6D222D0AAFAB4F90A6 /* LCACustomUI.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LCACustomUI/LCACustomUI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LCACustomUI/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LCACustomUI/LCACustomUI.modulemap";
+				PRODUCT_NAME = LCACustomUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F34F6A0608B4FDB5C03ECA7769753BDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB06CE90C16BB4F16483D92A475C2298 /* Pods-LCACustomUI_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LCACustomUI_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LCACustomUI_Tests/Pods-LCACustomUI_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LCACustomUI_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FC1F2940229295CD80168C567229B88D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2E8F2BF68B8713CBD2433BDF33FC52F /* LCAExtension.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LCAExtension/LCAExtension-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LCAExtension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LCAExtension/LCAExtension.modulemap";
+				PRODUCT_NAME = LCAExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05246D72D57FE069DC251361BBC1D36A /* Build configuration list for PBXNativeTarget "LCACustomUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF37908610C8F060091C6AB019AFA052 /* Debug */,
+				D9A46D42D1F223609D67450127DCA2D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68A25F3550A378EA574016E39E8F2AF7 /* Build configuration list for PBXNativeTarget "LCAExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A732941AB7B3E33E88B87F9285A77747 /* Debug */,
+				FC1F2940229295CD80168C567229B88D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75E59E0A1DB6B74115AD86BFA3D4A71F /* Build configuration list for PBXNativeTarget "Pods-LCACustomUI_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1A4097E918F42E62A3F88A01CED713A /* Debug */,
+				F34F6A0608B4FDB5C03ECA7769753BDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDD8AC1DAE1F5901F7EE8F1B56E48D22 /* Build configuration list for PBXNativeTarget "Pods-LCACustomUI_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5B274B9D4EAE4755FD75CA9BC2AD769 /* Debug */,
+				52D3A0832A5201A7F4BB98F3EE376FCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

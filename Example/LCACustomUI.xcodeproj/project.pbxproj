@@ -305,10 +305,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-LCACustomUI_Example/Pods-LCACustomUI_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/LCACustomUI/LCACustomUI.framework",
+				"${BUILT_PRODUCTS_DIR}/LCAExtension/LCAExtension.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LCACustomUI.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LCAExtension.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
