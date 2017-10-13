@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LCACustomUI_Example' do
+  pod 'LCACustomUI', :path => '../'
+
+  target 'LCACustomUI_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
