@@ -26,13 +26,13 @@ public struct LCAAlertConfiguration {
 public class LCAAlertController: UIAlertController {
     
    public var configuration:LCAAlertConfiguration = LCAAlertConfiguration()
-    
     //MARK:提示 我知道了
     public class func show(target:UIViewController,tip:String?,okAction:((_ action:UIAlertAction)->())?) {
-        let vc = LCAAlertController(title: "我知道了", message: nil, configuration: LCAAlertConfiguration(), okAction: { (action) in
-            target.dismiss(animated: true, completion: nil)
-            okAction?(action)
-        }, cancelAction: nil)
+        let vc = LCAAlertController(title: tip, message: nil, okTitle: "我知道了", okAction: { (okAct) in
+            target.dismiss(animated: true, completion: {
+                okAction?(okAct)
+            })
+        }, cancelTitle: nil, cancelAction: nil)
         target.present(vc, animated: true, completion: nil)
     }
     
